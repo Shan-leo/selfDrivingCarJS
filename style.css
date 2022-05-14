@@ -1,14 +1,10 @@
-*{
-    margin: 0;
-    overflow: hidden;
-    text-align: center;
-    box-sizing: border-box;
+body {
+  background: darkgray;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
 }
 
-body{
-    background: darkgray;
-}
-
-#myCanvas{
-    background: lightgray;
+#myCanvas {
+  background: lightgray;
 }
