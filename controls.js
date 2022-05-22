@@ -29,6 +29,7 @@ class Controls {
           break;
         case "ArrowDown":
           this.reverse = true;
+          break;
       }
     };
     document.onkeyup = (e) => {
@@ -44,6 +45,7 @@ class Controls {
           break;
         case "ArrowDown":
           this.reverse = false;
+          break;
       }
     };
   }
